@@ -31,6 +31,7 @@ public class _04_Comparator {
             System.out.println(person.name + " " +person.age);
         }
 
+        // 같으면 사전순 오름차숨
         Arrays.sort(ps2, (a, b) -> {
             if(a.age == b.age) return a.name.compareTo(b.name);
             return a.age - b.age;
