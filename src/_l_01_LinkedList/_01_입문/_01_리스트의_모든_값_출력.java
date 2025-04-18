@@ -10,7 +10,7 @@ public class _01_리스트의_모든_값_출력 {
 
     String printList2(ListNode head) {
         if (head == null) {
-            return head.val + "";
+            return "";
         }
         return head.val + " " + printList2(head.next);
     }

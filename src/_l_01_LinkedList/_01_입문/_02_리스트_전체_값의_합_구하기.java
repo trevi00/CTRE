@@ -10,9 +10,12 @@ public class _02_리스트_전체_값의_합_구하기 {
         return sum;
     }
 
+    // 단, 리스트가 매우 길 경우(예: 10^5개 이상)
+    // Java에서는
+    // StackOverflowError
     int getSum2(ListNode head){
         if (head == null) {
-            return head.val;
+            return 0;
         }
         return head.val + getSum2(head.next);
     }
