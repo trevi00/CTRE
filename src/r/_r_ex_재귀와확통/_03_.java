@@ -13,8 +13,7 @@ public class _03_ {
         }
 
         if(depth == r){
-            if(sum == k) return 1;
-            else return 0;
+            return (sum == k ? 1 : 0);
         }
 
         int total = 0;
@@ -26,9 +25,9 @@ public class _03_ {
     }
 
     public static void main(String[] args) {
-        n = 5;
-        r = 3;
-        k = 7;
+        n = 2;
+        r = 2;
+        k = 3;
 
         nums = new int[r];
 
