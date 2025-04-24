@@ -20,7 +20,6 @@ public class _06_우선큐_객체정렬 {
             pq.offer(st);
         }
 
-
         for(int i = 0; i < students.length; i++){
             Student student = pq.poll();
             System.out.println(student.name + " : " + student.score);

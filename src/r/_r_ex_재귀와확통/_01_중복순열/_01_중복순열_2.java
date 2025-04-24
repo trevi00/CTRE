@@ -1,4 +1,4 @@
-package r._r_ex_재귀와확통;
+package r._r_ex_재귀와확통._01_중복순열;
 
 public class _01_중복순열_2 {
     static int n;
